@@ -6,7 +6,6 @@ import Navbar from './navbar'
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Hii Im Mridul Sharma</h1>
     </div>
     // <div className={styles.container}>
