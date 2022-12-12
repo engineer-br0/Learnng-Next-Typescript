@@ -32,3 +32,8 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+}

@@ -2,11 +2,27 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from './navbar'
+import Ninjas from './ApiFetch'
+import Link from 'next/link'
+
+
 
 export default function Home() {
+  let names = ["mridul", "yash", "avneesh", "mohan"];
   return (
-    <div>
-      <h1>Hii Im Mridul Sharma</h1>
+    <div >
+      <h1>Homepage</h1>
+      <h2>Hii Im Mridul Sharma</h2>
+      <Ninjas />
+      {
+        names.map((name, index) =>{
+          return(
+            <Link href={"/" + index}>
+              {name + "   "} 
+            </Link>
+          )
+        })
+      }
     </div>
     // <div className={styles.container}>
     //   <Head>

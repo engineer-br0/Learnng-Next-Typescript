@@ -10,8 +10,9 @@ const NotFound = () =>{
         
     },[])
     return(
-        <div>
-            HII im not found page.
+        <div className="container">
+            <h1>404 not found;</h1>
+            <p>we are redirecting you to the homepage.....</p>
         </div>
     )
 }
