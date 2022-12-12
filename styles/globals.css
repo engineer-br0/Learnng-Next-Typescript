@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: rgb(255, 30, 0);
   text-decoration: none;
 }
 
@@ -24,3 +24,5 @@ a {
     background: black;
   }
 }
+
+
