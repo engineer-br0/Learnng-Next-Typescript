@@ -17,7 +17,7 @@ export default function Home() {
       {
         names.map((name, index) =>{
           return(
-            <Link href={"/" + index} >
+            <Link key={index} href={"/" + index} >
               {name + "   "} 
             </Link>
           )

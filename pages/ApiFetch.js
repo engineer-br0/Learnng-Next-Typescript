@@ -2,7 +2,7 @@
 
   
   const Ninjas = () => {
-     var ninjas ;
+    //  var ninjas ;
     // const getStaticProps = async () => {
     //     const res = await fetch('https://jsonplaceholder.typicode.com/users');
     //     ninjas = await res.json();
