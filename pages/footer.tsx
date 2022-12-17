@@ -1,6 +1,6 @@
 import styles from '../styles/Footer.module.css';
 
-export default function (){
+export default function Footer (){
     return(
         <div className={styles.container}>
          <p>Hii Im footer</p>
