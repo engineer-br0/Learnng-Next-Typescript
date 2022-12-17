@@ -3,12 +3,12 @@
   
   const Ninjas = () => {
      var ninjas ;
-    const getStaticProps = async () => {
-        const res = await fetch('https://jsonplaceholder.typicode.com/users');
-        ninjas = await res.json();
+    // const getStaticProps = async () => {
+    //     const res = await fetch('https://jsonplaceholder.typicode.com/users');
+    //     ninjas = await res.json();
       
-      }
-    console.log(ninjas)
+    //   }
+    // console.log(ninjas)
   
     return (
       <div>
